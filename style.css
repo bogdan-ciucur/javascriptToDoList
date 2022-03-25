@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center ;
+    margin-top: 50px;
+}
+
+
+.inputDiv {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.input {
+   padding: 1%;
+    width: 30%;
+    border-radius: 25px;
+    border: none;
+    border:solid 1px #ccc;
+    transition: transform .2s;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+
+}
+
+.input:hover {
+    transform: scale(1.02);
+}
+.input::placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    transition: transform .2s;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+
+
+.centerBtn {
+    display: flex;
+    justify-content: center ;
+
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    transition: transform .2s;
+
+    color: #333;
+
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #f4f4f4;
+}
+
+
+
+.centerCard {
+    width: 40%;
+    margin: 0 auto;
+
+    text-align: center;
+    display: grid;
+    grid-gap: 10%;
+    row-gap: 30%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
